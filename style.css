@@ -1,0 +1,243 @@
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction:column
+}
+
+main{
+display: flex;
+flex:1;
+}
+
+article{
+    flex:1;
+}
+
+body{
+    padding:0;
+    margin:0;
+    text-shadow: 2px 2px 1px gray;
+}
+footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:200%
+}
+header{
+    background-color: #9dddf4;
+    border: 2px solid #000;
+}
+
+article{
+    background-color: #f0ebc0;
+    border:2px solid #000;
+    padding-bottom: 20%;
+}
+    
+    footer{
+    background-color: #abdfeb;
+    border:2px solid #000000;
+}
+strong.inverse {
+    color:#000000;
+    background-color:#000000
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+html{
+    background-color: #e2e9c9;
+}
+.page-link{
+    background-color: #b9e2e3;
+    border:#000000;
+    color:#000000;
+    padding:15px 32px;
+    text-align: center;
+    text-decoration: wavy;
+    display: inline-block;
+    font-size: 16px;
+    margin:4px 2px;
+    cursor:pointer;
+    border-radius: 8px;
+}
+
+.page-link:hover{
+    transform:0.5s;
+    letter-spacing: 0.1em;
+    background-color: #c7e4da;
+    color:#000000;
+}
+
+.wrapper {
+    width: 500px;
+    padding-top: 25px;
+    padding: 25px;
+    margin-bottom: 10%;
+    background-color: #e2e9c9;
+    margin: 25px auto 0;
+    box-shadow: 0px 0px 20px rgba(
+        0, 0, 0, 0.5);
+        border-radius: 10px;
+}
+
+.wrapper h2{
+    background-color: #e2e9c9;
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 8px;
+    text-align: center;
+    border: 1px dashed #000000;
+}
+
+.wrapper h4{
+    padding-bottom: 5px;
+    color:#000000;
+    padding-top: 10px;
+}
+
+.input_group{
+    margin-bottom: 8px;
+    width: 100%;
+    position:relative;
+    border:#000000;
+    flex-direction: row;
+    padding: 5px 0;
+    
+}
+
+.input_box{
+    width: 100%;
+    margin-right: 12px;
+    position: relative;
+}
+
+.input_box:last-child{
+    margin-right: 0;
+}
+
+.input_box.name{
+    padding: 14px 10px 14px 50px;
+    width: 70%;
+    background-color: aliceblue;
+    border: 1px solid #000000;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: #333;
+}
+
+.input_group  .name{
+    padding:14px 10px 14px 50px;
+    width: 70%;
+    background-color: aliceblue;
+    border: 1px solid #000000;
+    outline: none;
+    letter-spacing: 1px;
+    transition: 0.3s;
+    border-radius: 3px;
+    color: #333;
+}
+
+.input_box .name:focus, .dov:focus{
+    -webkit-box-shadow: 0 0 2px 1px #21cdde;
+    -moz-box-shadow: 0 0 2px 1px #21cdde;
+    box-shadow: 0 0 2px 1px #21cdde;
+    border: 1px solid #21cdde
+}
+
+
+.input_group .name:focus, .dob:focus{
+    -webkit-box-shadow: 0 0 2px 1px #21cdde;
+    -moz-box-shadow: 0 0 2px 1px #21cdde;
+    box-shadow: 0 0 2px 1px #21cdde;
+    border: 1px solid #21cdde;
+}
+
+.dob{
+    width: 20%;
+    padding: 14px;
+    text-align: center;
+    background-color: white;
+    transition: 0.3s;
+    outline:none;
+    border: 1px #21cdde;
+    border-radius: 3px;
+    display:table-column;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    margin:0;
+    padding-top: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+.gallery{
+    display:row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    align-self: center;
+}
+.content{
+    width:30%;
+    margin: 15px;
+    box-sizing: border-box;
+    float:inline-start;
+    text-align: center;
+    border-radius: 20px;
+    cursor:pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    transition:.4s;
+    background: #abdfeb;
+}
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(8px, 18px);
+}
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display:block;
+}
+p{
+    text-align: center;
+    padding-top: 0 8px;
+}
+h6{
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+}
+.class-button2{
+    text-align:center ;
+    font-size: 15px;
+    color:aliceblue;
+    width: 100%;
+    padding: 15px;
+    border:0;
+    outline:none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.buy-1{
+    width: 100%;
+}
